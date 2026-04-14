@@ -1,43 +1,33 @@
-# 🔍 Semantic Similarity with FAISS
+# 🔎 Semantic Similarity with FAISS — Universal Sentence Encoder
 
-[![TensorFlow](https://img.shields.io/badge/Powered%20by-TensorFlow%202.0-orange)](https://www.tensorflow.org/)
-[![FAISS](https://img.shields.io/badge/Vector%20Search-FAISS-blue)](https://github.com/facebookresearch/faiss)
-[![NLP](https://img.shields.io/badge/NLP-Semantic%20Search-green)](https://tfhub.dev/google/universal-sentence-encoder/4)
+![Language](https://img.shields.io/badge/Language-Python%203.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![Library](https://img.shields.io/badge/Library-FAISS-00A3E0?style=flat-square&logo=meta&logoColor=white)
+![Embeddings](https://img.shields.io/badge/Embeddings-Universal%20Sentence%20Encoder-FF6B35?style=flat-square)
+![Framework](https://img.shields.io/badge/Framework-TensorFlow%20Hub-FF6F00?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
 
-This project demonstrates the implementation of a **Semantic Search Engine** using the **Universal Sentence Encoder (USE)** for text vectorization and **FAISS (Facebook AI Similarity Search)** for efficient high-dimensional indexing.
+## 📌 Project Overview
+Builds a complete **semantic search engine** using FAISS (Facebook AI Similarity Search) and the Universal Sentence Encoder (TensorFlow Hub). Applied to the 20 Newsgroups dataset — preprocesses text, converts to vector embeddings, indexes with FAISS, and performs semantic similarity search that understands meaning beyond keywords.
 
----
+**Domain:** Semantic Search — Vector Indexing  
+**Embeddings:** Universal Sentence Encoder (TensorFlow Hub)  
+**Vector Index:** FAISS (Facebook AI Similarity Search)  
+**Dataset:** 20 Newsgroups (text classification)
 
-## 📖 Project Overview
-Traditional search engines rely on keyword matching, which often fails to capture the underlying intent of a user's query. This system implements **Semantic Search**, which understands the context and nuances of human language.
+## 🚀 Pipeline
+```
+Text Data → Preprocessing → Universal Sentence Encoder
+     → 512-dim embeddings → FAISS Index → Semantic Search
+```
 
-### Key Components:
-* **Universal Sentence Encoder (USE)**: Converts preprocessed text into 512-dimensional vectors that represent the semantic essence of sentences.
-* **FAISS (Facebook AI Similarity Search)**: An efficient library for rapid similarity search and clustering of dense vectors.
-* **20 Newsgroups Dataset**: A collection of ~20,000 documents across 20 topics used to benchmark the search engine.
+## 🎓 Skills Demonstrated
+FAISS indexing · Universal Sentence Encoder · TensorFlow Hub · Semantic search · Text preprocessing · 20 Newsgroups · Vector similarity search
 
----
+## 📛 Suggested Name & Description
+**Name:** `semantic-similarity-faiss`  
+**Description:** `Semantic search engine using FAISS + Universal Sentence Encoder (TensorFlow Hub) on 20 Newsgroups dataset — text preprocessing, embedding, indexing & similarity search`  
+**Topics:** `faiss` `semantic-search` `universal-sentence-encoder` `tensorflow` `python` `vector-search` `nlp` `jupyter-notebook`
 
-## 🏗️ Technical Workflow
-1.  **Preprocessing**: Text is cleaned by removing email headers, email addresses, punctuation, and numbers.
-2.  **Vectorization**: Cleaned text is passed through the USE model to create numerical "fingerprints" (vectors).
-3.  **Indexing**: Vectors are added to a **FAISS `IndexFlatL2`**, which organizes them in a searchable space using Euclidean distance.
-4.  **Querying**: User queries are vectorized in real-time, and FAISS retrieves the nearest neighbors based on semantic similarity.
-
-
-
----
-
-## 🛠️ Technology Stack
-* **Language**: `Python`
-* **Deep Learning**: `TensorFlow`, `TensorFlow Hub`
-* **Vector Search**: `FAISS-cpu`
-* **Data Science**: `NumPy`, `scikit-learn`
-
----
-
-## ⚙️ Setup & Installation
-To run this project, install the following dependencies:
-
-```bash
-pip install faiss-cpu numpy scikit-learn tensorflow tensorflow-hub
+## 🤝 Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Leela%20A-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leela-a)
+[![Gmail](https://img.shields.io/badge/Gmail-attotaleelaissak@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:attotaleelaissak@gmail.com)
