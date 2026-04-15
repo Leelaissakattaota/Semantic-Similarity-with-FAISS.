@@ -23,11 +23,6 @@ Text Data → Preprocessing → Universal Sentence Encoder
 ## 🎓 Skills Demonstrated
 FAISS indexing · Universal Sentence Encoder · TensorFlow Hub · Semantic search · Text preprocessing · 20 Newsgroups · Vector similarity search
 
-## 📛 Suggested Name & Description
-**Name:** `semantic-similarity-faiss`  
-**Description:** `Semantic search engine using FAISS + Universal Sentence Encoder (TensorFlow Hub) on 20 Newsgroups dataset — text preprocessing, embedding, indexing & similarity search`  
-**Topics:** `faiss` `semantic-search` `universal-sentence-encoder` `tensorflow` `python` `vector-search` `nlp` `jupyter-notebook`
-
 ## 🤝 Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Leela%20A-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leela-a)
 [![Gmail](https://img.shields.io/badge/Gmail-attotaleelaissak@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:attotaleelaissak@gmail.com)
